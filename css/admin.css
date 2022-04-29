@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+body{
+    display: flex;
+}
+
+.left{
+    margin: auto;
+    position: relative;
+    display: grid;
+    /* border: 2px solid red; */
+    height: 90vh;
+   margin-left: 5px;
+   width: 200px;
+   margin-top: 35px;
+   text-align: center;
+   position: fixed;
+}
+.right{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 2px solid red; */
+    margin-left: 206px;
+    margin-top: 25px;
+    width: 90%;
+
+    
+}
+.right img{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid rgb(0, 255, 13); */
+    padding-bottom: 10px;
+    
+}
+
+.right button{
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    
+    border-bottom: 2px solid pink;
+}
+.update{
+    color: white;
+    background-color: rgb(11, 77, 11);
+}
+button{
+    
+    margin: auto;
+    height: 30px;
+    width: 150px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid black;
+}
+.right button{
+    margin-left: 340px;
+    width: 100px;
+}
+.delete{
+    color: white;
+    background-color: rgb(117, 9, 9);  
+}
+.opt:hover{
+    background-color: pink;
+}
+.right input{
+    margin: auto;
+    padding: 10px;
+    outline: none;
+    border: 0.5px solid rgb(163, 159, 159);
+    border-radius: 25px;
+    margin-bottom: 5px;
+    width: auto;
+    /* border-bottom: 2px solid pink; */
+}
+
+
+#project{
+    display: none;
+}
+h4{
+    text-align:center;
+    background-color: pink;
+    height: 50px;
+    font-size: 30px;
+}
+#import{
+    display:none;
+}
+#team {
+    display: none;
+   
+    
+}
+#slider form{
+    
+    
+    padding: 5px;
+}
+#cs{
+    display: none;
+}
+#slider{
+    display: none;
+}
+#plans{
+    display: none;
+}
+#team{
+    display: none;
+}

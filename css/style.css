@@ -1,0 +1,279 @@
+
+h2{
+text-transform: uppercase;
+font-family: 'Raleway', sans-serif;
+}
+.nav-item{
+display: flex;
+}
+.navbar{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: pink;
+}
+.top{
+position: relative;
+margin: auto;
+display: flex;
+padding: 9px;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.top h4{
+   
+margin-top: 10px;
+margin-left: 10px;
+}
+.top img{
+width: 150px;
+height: 100px;
+}
+.navbar-brand img {
+width: 116px;
+height: 84px;
+transform: rotate(60deg);
+}
+.contener{
+margin-top: 20px;
+}
+video{
+    width: 100%;
+    height: auto;
+    background-color: pink;
+}
+.welcome{
+position: relative;
+ margin: auto;
+margin-top: 25px;
+}
+.card-title{
+    
+text-transform: capitalize;
+color: palevioletred;
+font-size: 25px;
+font-family: 'Cinzel', serif;
+}
+p{
+font-family: 'Sorts Mill Goudy', serif;
+text-transform:capitalize ;
+}
+.welcome > .card h5{
+font-size: 50px;
+font-family: 'Tangerine', cursive;
+text-align: center;
+}
+.welcome img{
+width: 800px;
+height: 800px;
+}
+.book >.card{
+font-family: sans-serif;
+text-align: center;
+position: relative;
+margin: auto;
+margin-top: 20px;
+height: 400px;
+
+}
+.book button{
+width: 150px;
+height: 45px;
+border: 2px solid  pink;
+border-radius: 25px;
+font-size: 20px;
+text-transform: capitalize;
+}
+.book button:hover{
+background-color: pink;
+color: black;
+}
+.card h5{
+font-family: 'Tangerine', cursive;
+    
+   
+text-transform: capitalize;
+}
+.card{
+padding-bottom: 10px;
+overflow:hidden;
+}
+#gallary{
+   
+ overflow: hidden;
+margin-top: 80px;
+ background-color:pink;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align: center;
+margin-top: 70px;
+font-family: 'Cinzel', serif;
+}
+#gallary img{
+background-color: goldenrod;
+padding-bottom: 10px;
+padding: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 191, 0.192);
+}
+#gallary img:hover{
+transform: scale(1.1);
+transition: 1s;
+overflow: hidden;
+}
+#work{
+position: relative;
+text-align: center;
+text-transform: capitalize;
+margin-top: 70px;
+margin-left: 23px;
+font-family: 'Cinzel', serif;
+}
+#work img:hover{
+transform: scale(1.1);
+transition: 2s;
+overflow: hidden;
+
+}
+form{
+text-align: center;
+width: 76%;
+position: relative;
+margin: auto;
+margin-top: 68px
+}
+form >.book{
+width: 150px;
+height: 45px;
+border: 2px solid  pink;
+border-radius: 25px;
+font-size: 20px;
+text-transform: capitalize;
+}
+form >.book:hover{
+background-color: pink;
+color: black;
+}
+.form-contro input{
+outline: none;
+border-bottom: 2px solid pink;
+}
+.title{
+margin-top: 25px;
+text-align: center;
+background-color: pink;
+}
+.couplesays{
+background-color: pink;
+text-align: center;
+text-align: center;
+padding: 20px;
+position: relative;
+margin: auto;
+margin-top: 40px;
+display: flex;
+}
+.couplesays h5{
+font-family: 'Tangerine', cursive;
+color: rgb(0, 0, 0);
+}
+.couplesays p{
+color: rgb(0, 0, 0);
+}
+.couplesays img{
+background-color: rgb(219, 188, 13);
+   
+z-index: 1;
+height: 100%;
+padding: 10px;
+width: 489px;
+}
+.couplesays img:hover{
+transition: 0.4s;
+filter: opacity(10%);
+display: block;
+   
+}
+.couplesays h5:hover{
+display: block;
+}
+.couplesays > .card bg-light text-white{
+padding: 2px;
+position: relative;
+margin: auto;
+}
+.socialmedia{
+ padding: 7px;
+margin: auto;
+text-align: center;
+height: 22vh;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 15px; 
+margin-top: 35px;  
+     
+     
+ }
+ .socialmedia img{
+position: relative;
+margin:30px;
+height: 45px;
+width: 45px;
+padding: 10px;
+overflow: hidden;
+border-radius: 7px;
+}
+ 
+ .fb:hover{
+background-color: rgb(59, 89, 152);
+box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+}
+ .ig:hover{
+background: linear-gradient( to right, rgba(190, 85, 53, 0.932),rgb(248, 0, 207));
+box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+}
+ .tw:hover{
+background-color: rgb(29,161,242);
+box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+}
+.email:hover{
+background: linear-gradient( to bottom, rgba(168, 5, 5, 0.932),rgb(248, 79, 79));
+box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+}
+.youtube:hover{
+background-color: rgb(226, 24, 17);
+box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+}
+.copy{
+position: relative;
+margin: auto;
+text-align: center;
+top: 25px;
+background-color: pink;
+}
+
+@media screen and (max-width: 990px) {
+    .nav-item{
+        display: grid;
+    }
+    .carousel-inner img{
+        top: 0px;
+        height: 500px;
+    }
+    .carousel-inner{
+        height: 500px;
+    }
+    .socialmedia img{
+        position: relative;
+        margin:7px;
+      
+       height: 45px;
+       width: 45px;
+       padding: 7px;
+       overflow: hidden;
+       border-radius: 7px;
+        
+    }
+    .couplesays{
+        display: grid
+    }
+    #work{
+        margin-left: 46px;
+    }
+  }

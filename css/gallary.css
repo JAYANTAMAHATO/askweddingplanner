@@ -1,0 +1,239 @@
+h2{
+    font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+}
+.nav-item{
+    display: flex;
+}
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: pink;
+}
+.card-text{
+    font-family: 'Cinzel', serif;
+}
+.card img{
+    height: 23rem;
+}
+.top{
+    position: relative;
+    margin: auto;
+    display: flex;
+    padding: 9px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.top h4{
+
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.top img{
+    width: 150px;
+    height: 100px;
+}
+.navbar-brand img {
+    width: 116px;
+    height: 84px;
+    transform: rotate(60deg);
+}
+.contaner{
+
+    margin-top: 20px;
+}
+.card{
+    position: relative;
+    padding: 5px;
+}
+.card-deck{
+    margin: 40px;
+}
+button{
+    width: 150px;
+    height: 45px;
+    border: 2px solid  pink;
+    border-radius: 25px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+ button:hover{
+    background-color: pink;
+    color: black;
+}
+.card-body >.title{
+    text-transform: capitalize;
+    color: palevioletred;
+    font-size: 25px;
+    font-family: 'Tangerine', cursive;
+
+}
+.container{
+    display: grid;
+}
+#textabout{
+    
+    position: relative;
+    margin: 25px;
+}
+#textabout p{
+    text-align: left;
+}
+#gallary{
+
+    overflow: hidden;
+    background-color:pink;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 70px;
+}
+#gallary img{
+    padding-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 191, 0.192);
+}
+.container{
+    position: relative;
+    margin-top: 25px;
+}
+
+#gallary img:hover{
+
+    filter: brightness(50%);
+    transition: 0.3s;
+    display: block;
+
+
+
+}
+.team{
+    display: flex;
+}
+.team img{
+    height: 50px;
+    width: 50px;
+}
+.card {
+    margin: 5px;
+}
+form{
+    text-align: center;
+    width: 76%;
+    position: relative;
+    margin: auto;
+    margin-top: 68px
+}
+form >.book{
+    width: 150px;
+    height: 45px;
+    border: 2px solid  pink;
+    border-radius: 25px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+form >.book:hover{
+    background-color: pink;
+    color: black;
+}
+.form-contro input{
+    outline: none;
+    border-bottom: 2px solid pink;
+}
+.socialmedia{
+    /* border: 2px solid red; */
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    height: 18vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5px;
+    top: 85px;
+
+
+ }
+ .copy{
+     position: relative;
+     margin: auto;
+    text-align: center;
+    top: 90px;
+    background-color: pink;
+ }
+ .socialmedia img{
+     position: relative;
+     margin:30px;
+    /* border: 1px solid red;  */
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 7px;
+
+ }
+
+ .fb:hover{
+    background-color: rgb(59, 89, 152);
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+    
+   
+    /* border-radius: 25px; */
+
+}
+.ig:hover{
+   background: linear-gradient( to right, rgba(190, 85, 53, 0.932),rgb(248, 0, 207));
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+    
+}
+.tw:hover{
+    background-color: rgb(29,161,242);
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+   
+}
+.email:hover{
+   background: linear-gradient( to bottom, rgba(168, 5, 5, 0.932),rgb(248, 79, 79));
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+  
+}
+.youtube:hover{
+    background-color: rgb(226, 24, 17);
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+    
+}
+
+
+@media screen and (max-width: 990px) {
+    .nav-item{
+        display: grid;
+    }
+    .carousel-inner img{
+        top: 0px;
+        height: 500px;
+    }
+    .carousel-inner{
+        height: 500px;
+    }
+    .socialmedia img{
+        position: relative;
+        margin:7px;
+       /* border: 1px solid red;  */
+       height: 45px;
+       width: 45px;
+       padding: 7px;
+       overflow: hidden;
+       border-radius: 7px;
+
+    }
+    .container{
+        display: grid;
+    }
+    .team {
+        display: grid;
+    }
+    .card img{
+        width:25rem;
+    }
+    .desktop{
+        display: grid;
+    }
+  }

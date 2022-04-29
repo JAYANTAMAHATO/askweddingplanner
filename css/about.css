@@ -1,0 +1,222 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.card-header{
+    background-color: pink;
+}
+.container{
+   
+    margin-top: 25px;
+}
+.card-text{
+    font-family: 'Sorts Mill Goudy', serif;
+    text-transform: capitalize;
+    margin: 16px;
+    text-align: center;
+}
+.card-title{
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    
+}
+
+
+
+.about{
+    margin: 5px;
+    position: relative;
+    /* border:2px solid red; */
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2px;
+    margin-top: 25px;
+}
+
+
+.team{
+
+    overflow: hidden;
+    background-color:pink;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.team img{
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 191, 0.192);
+}
+
+
+.card-body{
+    
+    text-transform: capitalize;
+    box-sizing: border-box;
+    overflow: hidden;
+   filter: opacity(0%);
+   height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+.card-body:hover.card-body{
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 1s;
+    filter: opacity(100%);
+
+}
+
+.top{
+    position: relative;
+    margin: auto;
+    display: flex;
+    padding: 9px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.top h4{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.top img{
+    width: 150px;
+    height: 100px;
+}
+.navbar-brand img {
+    width: 116px;
+    height: 84px;
+    transform: rotate(60deg);
+}
+
+
+
+
+
+
+
+h2{
+    font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+}
+.nav-item{
+    display: flex;
+}
+.navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: pink;
+}
+
+
+
+.socialmedia{
+    /* border: 2px solid red; */
+    padding: 7px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    height: 25vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+    top: 85px;
+
+
+ }
+ .socialmedia img{
+     position: relative;
+     margin:30px;
+    /* border: 1px solid red;  */
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 7px;
+
+ }
+
+ .fb:hover{
+    background-color: rgb(59, 89, 152);
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+    
+   
+    /* border-radius: 25px; */
+
+}
+.ig:hover{
+   background: linear-gradient( to right, rgba(190, 85, 53, 0.932),rgb(248, 0, 207));
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+    
+}
+.tw:hover{
+    background-color: rgb(29,161,242);
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+   
+}
+.email:hover{
+   background: linear-gradient( to bottom, rgba(168, 5, 5, 0.932),rgb(248, 79, 79));
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+  
+}
+.youtube:hover{
+    background-color: rgb(226, 24, 17);
+    box-shadow: 10px 9px 20px 0px rgb(0, 0, 0);
+    
+}
+
+ .copy{
+    position: relative;
+    margin: auto;
+   text-align: center;
+   top: 90px;
+   background-color: pink;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 990px) {
+    .nav-item{
+        display: grid;
+    }
+    .carousel-inner img{
+        top: 0px;
+        height: 500px;
+    }
+    .carousel-inner{
+        height: 500px;
+    }
+    .socialmedia img{
+        position: relative;
+        margin:7px;
+       /* border: 1px solid red;  */
+       height: 45px;
+       width: 45px;
+       padding: 7px;
+       overflow: hidden;
+       border-radius: 7px;
+
+    }
+    .container{
+        display: grid;
+    }
+    .team {
+        display: grid;
+    }
+  }
